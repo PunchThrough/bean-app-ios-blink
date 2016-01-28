@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD50E3BC1C599D8900E17D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50E3BB1C599D8900E17D43 /* AppDelegate.swift */; };
+		DD50E3BE1C599D8900E17D43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50E3BD1C599D8900E17D43 /* ViewController.swift */; };
+		DD50E3C11C599D8900E17D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD50E3BF1C599D8900E17D43 /* Main.storyboard */; };
+		DD50E3C31C599D8900E17D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD50E3C21C599D8900E17D43 /* Assets.xcassets */; };
+		DD50E3C61C599D8900E17D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD50E3C41C599D8900E17D43 /* LaunchScreen.storyboard */; };
+		DD50E3D11C599D8900E17D43 /* BeanBlinkOnButtonPressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50E3D01C599D8900E17D43 /* BeanBlinkOnButtonPressTests.swift */; };
+		DD50E3DC1C599D8900E17D43 /* BeanBlinkOnButtonPressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50E3DB1C599D8900E17D43 /* BeanBlinkOnButtonPressUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD50E3CD1C599D8900E17D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD50E3B01C599D8900E17D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD50E3B71C599D8900E17D43;
+			remoteInfo = BeanBlinkOnButtonPress;
+		};
+		DD50E3D81C599D8900E17D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD50E3B01C599D8900E17D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD50E3B71C599D8900E17D43;
+			remoteInfo = BeanBlinkOnButtonPress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD50E3B81C599D8900E17D43 /* BeanBlinkOnButtonPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeanBlinkOnButtonPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD50E3BB1C599D8900E17D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD50E3BD1C599D8900E17D43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD50E3C01C599D8900E17D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD50E3C21C599D8900E17D43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD50E3C51C599D8900E17D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD50E3C71C599D8900E17D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD50E3CC1C599D8900E17D43 /* BeanBlinkOnButtonPressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeanBlinkOnButtonPressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD50E3D01C599D8900E17D43 /* BeanBlinkOnButtonPressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeanBlinkOnButtonPressTests.swift; sourceTree = "<group>"; };
+		DD50E3D21C599D8900E17D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD50E3D71C599D8900E17D43 /* BeanBlinkOnButtonPressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeanBlinkOnButtonPressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD50E3DB1C599D8900E17D43 /* BeanBlinkOnButtonPressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeanBlinkOnButtonPressUITests.swift; sourceTree = "<group>"; };
+		DD50E3DD1C599D8900E17D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD50E3B51C599D8900E17D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD50E3C91C599D8900E17D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD50E3D41C599D8900E17D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD50E3AF1C599D8900E17D43 = {
+			isa = PBXGroup;
+			children = (
+				DD50E3BA1C599D8900E17D43 /* BeanBlinkOnButtonPress */,
+				DD50E3CF1C599D8900E17D43 /* BeanBlinkOnButtonPressTests */,
+				DD50E3DA1C599D8900E17D43 /* BeanBlinkOnButtonPressUITests */,
+				DD50E3B91C599D8900E17D43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD50E3B91C599D8900E17D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD50E3B81C599D8900E17D43 /* BeanBlinkOnButtonPress.app */,
+				DD50E3CC1C599D8900E17D43 /* BeanBlinkOnButtonPressTests.xctest */,
+				DD50E3D71C599D8900E17D43 /* BeanBlinkOnButtonPressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD50E3BA1C599D8900E17D43 /* BeanBlinkOnButtonPress */ = {
+			isa = PBXGroup;
+			children = (
+				DD50E3BB1C599D8900E17D43 /* AppDelegate.swift */,
+				DD50E3BD1C599D8900E17D43 /* ViewController.swift */,
+				DD50E3BF1C599D8900E17D43 /* Main.storyboard */,
+				DD50E3C21C599D8900E17D43 /* Assets.xcassets */,
+				DD50E3C41C599D8900E17D43 /* LaunchScreen.storyboard */,
+				DD50E3C71C599D8900E17D43 /* Info.plist */,
+			);
+			path = BeanBlinkOnButtonPress;
+			sourceTree = "<group>";
+		};
+		DD50E3CF1C599D8900E17D43 /* BeanBlinkOnButtonPressTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD50E3D01C599D8900E17D43 /* BeanBlinkOnButtonPressTests.swift */,
+				DD50E3D21C599D8900E17D43 /* Info.plist */,
+			);
+			path = BeanBlinkOnButtonPressTests;
+			sourceTree = "<group>";
+		};
+		DD50E3DA1C599D8900E17D43 /* BeanBlinkOnButtonPressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD50E3DB1C599D8900E17D43 /* BeanBlinkOnButtonPressUITests.swift */,
+				DD50E3DD1C599D8900E17D43 /* Info.plist */,
+			);
+			path = BeanBlinkOnButtonPressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD50E3B71C599D8900E17D43 /* BeanBlinkOnButtonPress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD50E3E01C599D8900E17D43 /* Build configuration list for PBXNativeTarget "BeanBlinkOnButtonPress" */;
+			buildPhases = (
+				DD50E3B41C599D8900E17D43 /* Sources */,
+				DD50E3B51C599D8900E17D43 /* Frameworks */,
+				DD50E3B61C599D8900E17D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeanBlinkOnButtonPress;
+			productName = BeanBlinkOnButtonPress;
+			productReference = DD50E3B81C599D8900E17D43 /* BeanBlinkOnButtonPress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD50E3CB1C599D8900E17D43 /* BeanBlinkOnButtonPressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD50E3E31C599D8900E17D43 /* Build configuration list for PBXNativeTarget "BeanBlinkOnButtonPressTests" */;
+			buildPhases = (
+				DD50E3C81C599D8900E17D43 /* Sources */,
+				DD50E3C91C599D8900E17D43 /* Frameworks */,
+				DD50E3CA1C599D8900E17D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD50E3CE1C599D8900E17D43 /* PBXTargetDependency */,
+			);
+			name = BeanBlinkOnButtonPressTests;
+			productName = BeanBlinkOnButtonPressTests;
+			productReference = DD50E3CC1C599D8900E17D43 /* BeanBlinkOnButtonPressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD50E3D61C599D8900E17D43 /* BeanBlinkOnButtonPressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD50E3E61C599D8900E17D43 /* Build configuration list for PBXNativeTarget "BeanBlinkOnButtonPressUITests" */;
+			buildPhases = (
+				DD50E3D31C599D8900E17D43 /* Sources */,
+				DD50E3D41C599D8900E17D43 /* Frameworks */,
+				DD50E3D51C599D8900E17D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD50E3D91C599D8900E17D43 /* PBXTargetDependency */,
+			);
+			name = BeanBlinkOnButtonPressUITests;
+			productName = BeanBlinkOnButtonPressUITests;
+			productReference = DD50E3D71C599D8900E17D43 /* BeanBlinkOnButtonPressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD50E3B01C599D8900E17D43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "nadine farah";
+				TargetAttributes = {
+					DD50E3B71C599D8900E17D43 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DD50E3CB1C599D8900E17D43 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DD50E3B71C599D8900E17D43;
+					};
+					DD50E3D61C599D8900E17D43 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DD50E3B71C599D8900E17D43;
+					};
+				};
+			};
+			buildConfigurationList = DD50E3B31C599D8900E17D43 /* Build configuration list for PBXProject "BeanBlinkOnButtonPress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD50E3AF1C599D8900E17D43;
+			productRefGroup = DD50E3B91C599D8900E17D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD50E3B71C599D8900E17D43 /* BeanBlinkOnButtonPress */,
+				DD50E3CB1C599D8900E17D43 /* BeanBlinkOnButtonPressTests */,
+				DD50E3D61C599D8900E17D43 /* BeanBlinkOnButtonPressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD50E3B61C599D8900E17D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD50E3C61C599D8900E17D43 /* LaunchScreen.storyboard in Resources */,
+				DD50E3C31C599D8900E17D43 /* Assets.xcassets in Resources */,
+				DD50E3C11C599D8900E17D43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD50E3CA1C599D8900E17D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD50E3D51C599D8900E17D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD50E3B41C599D8900E17D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD50E3BE1C599D8900E17D43 /* ViewController.swift in Sources */,
+				DD50E3BC1C599D8900E17D43 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD50E3C81C599D8900E17D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD50E3D11C599D8900E17D43 /* BeanBlinkOnButtonPressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD50E3D31C599D8900E17D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD50E3DC1C599D8900E17D43 /* BeanBlinkOnButtonPressUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD50E3CE1C599D8900E17D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD50E3B71C599D8900E17D43 /* BeanBlinkOnButtonPress */;
+			targetProxy = DD50E3CD1C599D8900E17D43 /* PBXContainerItemProxy */;
+		};
+		DD50E3D91C599D8900E17D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD50E3B71C599D8900E17D43 /* BeanBlinkOnButtonPress */;
+			targetProxy = DD50E3D81C599D8900E17D43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD50E3BF1C599D8900E17D43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD50E3C01C599D8900E17D43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD50E3C41C599D8900E17D43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD50E3C51C599D8900E17D43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD50E3DE1C599D8900E17D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD50E3DF1C599D8900E17D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD50E3E11C599D8900E17D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeanBlinkOnButtonPress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.nadinefarah.BeanBlinkOnButtonPress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD50E3E21C599D8900E17D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeanBlinkOnButtonPress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.nadinefarah.BeanBlinkOnButtonPress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD50E3E41C599D8900E17D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeanBlinkOnButtonPressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.nadinefarah.BeanBlinkOnButtonPressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeanBlinkOnButtonPress.app/BeanBlinkOnButtonPress";
+			};
+			name = Debug;
+		};
+		DD50E3E51C599D8900E17D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeanBlinkOnButtonPressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.nadinefarah.BeanBlinkOnButtonPressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeanBlinkOnButtonPress.app/BeanBlinkOnButtonPress";
+			};
+			name = Release;
+		};
+		DD50E3E71C599D8900E17D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeanBlinkOnButtonPressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.nadinefarah.BeanBlinkOnButtonPressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeanBlinkOnButtonPress;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD50E3E81C599D8900E17D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeanBlinkOnButtonPressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.nadinefarah.BeanBlinkOnButtonPressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeanBlinkOnButtonPress;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD50E3B31C599D8900E17D43 /* Build configuration list for PBXProject "BeanBlinkOnButtonPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD50E3DE1C599D8900E17D43 /* Debug */,
+				DD50E3DF1C599D8900E17D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD50E3E01C599D8900E17D43 /* Build configuration list for PBXNativeTarget "BeanBlinkOnButtonPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD50E3E11C599D8900E17D43 /* Debug */,
+				DD50E3E21C599D8900E17D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD50E3E31C599D8900E17D43 /* Build configuration list for PBXNativeTarget "BeanBlinkOnButtonPressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD50E3E41C599D8900E17D43 /* Debug */,
+				DD50E3E51C599D8900E17D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD50E3E61C599D8900E17D43 /* Build configuration list for PBXNativeTarget "BeanBlinkOnButtonPressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD50E3E71C599D8900E17D43 /* Debug */,
+				DD50E3E81C599D8900E17D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD50E3B01C599D8900E17D43 /* Project object */;
+}
