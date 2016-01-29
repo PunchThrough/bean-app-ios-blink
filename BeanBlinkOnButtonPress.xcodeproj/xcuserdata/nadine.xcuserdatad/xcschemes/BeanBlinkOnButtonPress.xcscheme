@@ -20,6 +20,20 @@
                ReferencedContainer = "container:BeanBlinkOnButtonPress.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DD50E3CB1C599D8900E17D43"
+               BuildableName = "BeanBlinkOnButtonPressTests.xctest"
+               BlueprintName = "BeanBlinkOnButtonPressTests"
+               ReferencedContainer = "container:BeanBlinkOnButtonPress.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
