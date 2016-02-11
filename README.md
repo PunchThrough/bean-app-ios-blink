@@ -20,4 +20,5 @@ Copyright (c) <2016> <Punch Through Design>
 
 
 # Troubleshooting
-Have a question about this tutorial, Bean, or code?  Reach out on [BeanTalk](beantalk.punchthrough.com).  
+Have a question about this tutorial, Bean, or code?  Reach out on [BeanTalk](beantalk.punchthrough.com).
+   
