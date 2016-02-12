@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="muT-Ka-etI">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Root View Controller-->
@@ -64,13 +65,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="shG-TR-Hek">
-                                <rect key="frame" x="39" y="58" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="shG-TR-Hek">
+                                <rect key="frame" x="180" y="58" width="240" height="128"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Esr-Vr-2rD">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Esr-Vr-2rD">
                                         <rect key="frame" x="2" y="19" width="230" height="90"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nas-qh-9ia">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nas-qh-9ia">
                                                 <rect key="frame" x="0.0" y="0.0" width="230" height="45"/>
                                                 <color key="backgroundColor" red="0.97647058823529409" green="0.22745098039215686" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -85,7 +86,7 @@
                                                     <action selector="pressMeButtonToToggleLED:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uvy-yI-gYs"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="LED is: OFF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfb-eL-amJ">
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LED is: OFF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfb-eL-amJ">
                                                 <rect key="frame" x="0.0" y="45" width="230" height="45"/>
                                                 <color key="backgroundColor" red="0.99607843137254903" green="0.80000000000000004" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="tintColor" red="0.066460587809999999" green="0.61210539050000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -102,14 +103,16 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="Esr-Vr-2rD" firstAttribute="centerY" secondItem="shG-TR-Hek" secondAttribute="centerY" id="Can-NK-LTJ"/>
                                     <constraint firstAttribute="height" constant="128" id="PfE-bM-Ki9"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="aSp-hw-iGE"/>
+                                    <constraint firstItem="Esr-Vr-2rD" firstAttribute="trailing" secondItem="shG-TR-Hek" secondAttribute="trailingMargin" id="ofs-Gm-Bvh"/>
                                     <constraint firstAttribute="width" constant="240" id="qDk-72-aED"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="shG-TR-Hek" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DFe-mV-CcD"/>
                             <constraint firstItem="shG-TR-Hek" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="38" id="F4A-Sm-0bR"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="shG-TR-Hek" secondAttribute="bottom" constant="414" id="OBu-8g-BO6"/>
                             <constraint firstItem="shG-TR-Hek" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bsY-tc-JAq"/>
