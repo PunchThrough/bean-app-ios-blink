@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     // MARK: Properties
     
+    @IBOutlet weak var ledTextLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,6 +24,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+// Mark: Actions
+    @IBAction func pressMeButtonToToggleLED(sender: AnyObject) {
+    
+        if ledTextLabel.text == nil {
+            ledTextLabel.text = "Led is: OFF"
+        } else if ledTextLabel.text == "Led is: OFF" {
+            ledTextLabel.text = "Led is: ON"
+        } else {
+            ledTextLabel.text = "Led is: OFF"
+        }
+    
+    }
 
 }
-
