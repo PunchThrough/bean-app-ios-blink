@@ -8,6 +8,7 @@
         <!--Root View Controller-->
         <scene sceneID="Rew-d8-C72">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GTb-Or-gaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="Fse-XI-0cc" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="cFv-im-xgF">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
@@ -33,7 +34,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="G4P-wK-xDh"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GTb-Or-gaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-560" y="133"/>
         </scene>
@@ -103,10 +103,10 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="Esr-Vr-2rD" firstAttribute="centerY" secondItem="shG-TR-Hek" secondAttribute="centerY" id="Can-NK-LTJ"/>
+                                    <constraint firstItem="Esr-Vr-2rD" firstAttribute="trailing" secondItem="shG-TR-Hek" secondAttribute="trailingMargin" id="Msn-67-y8t"/>
                                     <constraint firstAttribute="height" constant="128" id="PfE-bM-Ki9"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="aSp-hw-iGE"/>
-                                    <constraint firstItem="Esr-Vr-2rD" firstAttribute="trailing" secondItem="shG-TR-Hek" secondAttribute="trailingMargin" id="ofs-Gm-Bvh"/>
+                                    <constraint firstItem="Esr-Vr-2rD" firstAttribute="centerY" secondItem="shG-TR-Hek" secondAttribute="centerY" id="nFA-bH-DEr"/>
                                     <constraint firstAttribute="width" constant="240" id="qDk-72-aED"/>
                                 </constraints>
                             </view>
