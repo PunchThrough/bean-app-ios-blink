@@ -10,7 +10,7 @@ To learn how to use the Bean, visit the [Getting started guide](https://www.punc
 # Versions
 |  Version | Description |
 |---|---|
-|[v.01](https://github.com/PunchThrough/BeanBlinkOnButtonPress/releases/tag/V.01)| Created a story board for the app|
+|[v.01](https://github.com/PunchThrough/BeanBlinkOnButtonPress/releases/tag/v.01)| Created a story board for the app|
 
 
 # License
