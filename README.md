@@ -11,7 +11,6 @@ To learn how to use the Bean, visit the [Getting started guide](https://www.punc
 |  Version | Description |
 |---|---|
 |[v.01](https://github.com/PunchThrough/BeanBlinkOnButtonPress/releases/tag/V.01)| Created a story board for the app|
-|[v.02](https://github.com/PunchThrough/BeanBlinkOnButtonPress/releases/tag/V.02)| Created a story board for the app|  
 
 
 # License
