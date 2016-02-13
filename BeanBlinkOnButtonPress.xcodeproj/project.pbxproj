@@ -473,7 +473,9 @@
 			baseConfigurationReference = 961C837A754BE9BA253D02C0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = BeanBlinkOnButtonPress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.nadinefarah.BeanBlinkOnButtonPress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,7 +487,9 @@
 			baseConfigurationReference = F8EB759DB5E576CA5E761B56 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = BeanBlinkOnButtonPress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.nadinefarah.BeanBlinkOnButtonPress;
 				PRODUCT_NAME = "$(TARGET_NAME)";

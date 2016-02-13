@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="muT-Ka-etI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="muT-Ka-etI">
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Root View Controller-->
         <scene sceneID="Rew-d8-C72">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GTb-Or-gaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="Fse-XI-0cc" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="cFv-im-xgF">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
@@ -18,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OIf-B8-b3r" id="DZw-VI-C1K">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -33,7 +34,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="G4P-wK-xDh"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GTb-Or-gaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-560" y="133"/>
         </scene>
@@ -65,24 +65,66 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nas-qh-9ia">
-                                <rect key="frame" x="155" y="100" width="303" height="137"/>
-                                <color key="backgroundColor" red="0.12702159755695974" green="0.56930238078793582" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="shG-TR-Hek">
+                                <rect key="frame" x="180" y="58" width="240" height="128"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Esr-Vr-2rD">
+                                        <rect key="frame" x="2" y="19" width="230" height="90"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nas-qh-9ia">
+                                                <rect key="frame" x="0.0" y="0.0" width="230" height="45"/>
+                                                <color key="backgroundColor" red="0.97647058823529409" green="0.22745098039215686" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45" id="57V-i4-Yai"/>
+                                                    <constraint firstAttribute="width" constant="230" id="utL-Dj-Su8"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                                <state key="normal" title="Press Me">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="pressMeButtonToToggleLED:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uvy-yI-gYs"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LED is: OFF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfb-eL-amJ">
+                                                <rect key="frame" x="0.0" y="45" width="230" height="45"/>
+                                                <color key="backgroundColor" red="0.99607843137254903" green="0.80000000000000004" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="tintColor" red="0.066460587809999999" green="0.61210539050000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45" id="ENH-C4-WRM"/>
+                                                    <constraint firstAttribute="width" constant="230" id="JPN-jy-VqO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                                <color key="textColor" red="0.33178323412698407" green="0.33178323412698407" blue="0.33178323412698407" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="303" id="1tI-5U-71h"/>
+                                    <constraint firstItem="Esr-Vr-2rD" firstAttribute="trailing" secondItem="shG-TR-Hek" secondAttribute="trailingMargin" id="Msn-67-y8t"/>
+                                    <constraint firstAttribute="height" constant="128" id="PfE-bM-Ki9"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="aSp-hw-iGE"/>
+                                    <constraint firstItem="Esr-Vr-2rD" firstAttribute="centerY" secondItem="shG-TR-Hek" secondAttribute="centerY" id="nFA-bH-DEr"/>
+                                    <constraint firstAttribute="width" constant="240" id="qDk-72-aED"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <state key="normal" title="Press Me">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="shG-TR-Hek" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="38" id="F4A-Sm-0bR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="shG-TR-Hek" secondAttribute="bottom" constant="414" id="OBu-8g-BO6"/>
+                            <constraint firstItem="shG-TR-Hek" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bsY-tc-JAq"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ledTextLabel" destination="Cfb-eL-amJ" id="ElC-FJ-cP8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="188" y="133"/>
+            <point key="canvasLocation" x="193" y="210"/>
         </scene>
     </scenes>
 </document>
