@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     // MARK: Properties
-    
+    // Step 1: create a label
     @IBOutlet weak var ledTextLabel: UILabel!
     
     override func viewDidLoad() {
@@ -19,12 +19,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 // Mark: Actions
+    // Step 2: get some logic for the button working
+    // Run the app and make sure it is toggling as you expect
     @IBAction func pressMeButtonToToggleLED(sender: AnyObject) {
     
         if ledTextLabel.text == nil {
