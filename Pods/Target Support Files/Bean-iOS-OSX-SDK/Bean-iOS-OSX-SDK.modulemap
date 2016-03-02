@@ -1,0 +1,6 @@
+framework module Bean_iOS_OSX_SDK {
+  umbrella header "Bean-iOS-OSX-SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

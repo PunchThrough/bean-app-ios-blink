@@ -1,1 +1,0 @@
-../../../Bean-iOS-OSX-SDK/App Message Definitions/AppMessages.h

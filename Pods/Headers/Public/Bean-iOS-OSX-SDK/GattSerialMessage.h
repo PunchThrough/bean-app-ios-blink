@@ -1,1 +1,0 @@
-../../../Bean-iOS-OSX-SDK/source/Profiles/Gatt Serial/Transport/GattSerialMessage.h

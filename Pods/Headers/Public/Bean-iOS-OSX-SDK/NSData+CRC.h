@@ -1,1 +1,0 @@
-../../../Bean-iOS-OSX-SDK/source/Categories/NSData+CRC.h

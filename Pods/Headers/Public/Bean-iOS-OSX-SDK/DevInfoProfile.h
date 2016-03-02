@@ -1,1 +1,0 @@
-../../../Bean-iOS-OSX-SDK/source/Profiles/Device Info/DevInfoProfile.h

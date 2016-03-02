@@ -1,2 +1,3 @@
-platform :ios, '7.0'
+use_frameworks!
+
 pod 'Bean-iOS-OSX-SDK'

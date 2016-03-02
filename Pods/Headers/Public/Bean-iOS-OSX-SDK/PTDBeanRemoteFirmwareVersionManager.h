@@ -1,1 +1,0 @@
-../../../Bean-iOS-OSX-SDK/source/Helper/PTDBeanRemoteFirmwareVersionManager.h

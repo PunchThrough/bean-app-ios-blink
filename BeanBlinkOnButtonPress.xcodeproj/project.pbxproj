@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66DBB16403679B7E5C7914CE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3759DCFD987CA4608DCCD986 /* libPods.a */; };
+		4FD3ED67D2CC5E4B3E84B557 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E2AB694561E24A19EBEED2 /* Pods.framework */; };
 		DD50E3BC1C599D8900E17D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50E3BB1C599D8900E17D43 /* AppDelegate.swift */; };
 		DD50E3BE1C599D8900E17D43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD50E3BD1C599D8900E17D43 /* ViewController.swift */; };
 		DD50E3C11C599D8900E17D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD50E3BF1C599D8900E17D43 /* Main.storyboard */; };
@@ -35,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3759DCFD987CA4608DCCD986 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		961C837A754BE9BA253D02C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DD50E3B81C599D8900E17D43 /* BeanBlinkOnButtonPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeanBlinkOnButtonPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD50E3BB1C599D8900E17D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		DD50E3D71C599D8900E17D43 /* BeanBlinkOnButtonPressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeanBlinkOnButtonPressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD50E3DB1C599D8900E17D43 /* BeanBlinkOnButtonPressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeanBlinkOnButtonPressUITests.swift; sourceTree = "<group>"; };
 		DD50E3DD1C599D8900E17D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E2AB694561E24A19EBEED2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EB759DB5E576CA5E761B56 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66DBB16403679B7E5C7914CE /* libPods.a in Frameworks */,
+				4FD3ED67D2CC5E4B3E84B557 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 		44A4EDB8899DB89844A2B6E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3759DCFD987CA4608DCCD986 /* libPods.a */,
+				F0E2AB694561E24A19EBEED2 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
