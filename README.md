@@ -8,20 +8,18 @@ Checkout the [Bean](https://punchthrough.com/bean-from-wireframe)! You can find 
 
 To learn how to use the Bean, visit the [Getting started guide](https://www.punchthrough.com/bean/guides/getting-started/intro/)
 
-
 # Versions
 |  Version | Description |
 |---|---|
 |[v.01](https://github.com/PunchThrough/BeanBlinkOnButtonPress/releases/tag/v.01)| Created a story board for the app + implemented button logic|
 |[v.02](https://github.com/PunchThrough/BeanBlinkOnButtonPress/releases/tag/v.02)| Implemented Bean's SDK|
 
-
 # License
 
 The MIT License (MIT)
 Copyright (c) <2016> <Punch Through Design>
 
-
 # Troubleshooting
+
 Have a question about this tutorial, Bean, or code?  Reach out on [BeanTalk](beantalk.punchthrough.com).
    

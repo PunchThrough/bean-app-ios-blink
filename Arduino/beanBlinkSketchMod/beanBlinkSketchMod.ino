@@ -1,3 +1,8 @@
+// The Bean is getting a hex when we execute:
+// sendSerialData(data) on the iOS App. Essentially,
+// we are checking if the data is
+// 1 (LED is ON) or 0 (LED is OFF). 
+
 void setup() {
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
