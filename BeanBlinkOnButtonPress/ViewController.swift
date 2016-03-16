@@ -1,7 +1,7 @@
 import UIKit
 import Bean_iOS_OSX_SDK
 
-class ViewController: UIViewController, PTDBeanManagerDelegate, PTDBeanDelegate{
+class ViewController: UIViewController, PTDBeanManagerDelegate, PTDBeanDelegate {
     
     // Declare variables we will use throughout the app
     var beanManager: PTDBeanManager?
