@@ -14,6 +14,14 @@ To learn how to use the Bean, visit the [Getting started guide](https://www.punc
 |[v.01](https://github.com/PunchThrough/BeanBlinkOnButtonPress/releases/tag/v.01)| Created a story board for the app + implemented button logic|
 |[v.02](https://github.com/PunchThrough/BeanBlinkOnButtonPress/releases/tag/v.02)| Implemented Bean's SDK|
 
+# How to Use this App
+Click on the version you want to use.  For v.02, on terminal, you want to:
+```
+$ pod install
+
+```
+Afterwards, hit "cmd b" - this creates a new build for the program.
+
 # License
 
 The MIT License (MIT)
